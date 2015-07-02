@@ -17,10 +17,8 @@ function angBlurOut($timeout) {
   function link(scope, elem) {
     scope.$watch('angBlurOut', function() {
       if(scope.angBlurOut) {
-        console.log('angBlurOut: ang-blur-out mode is now on.');
         startEventListening();
       } else {
-        console.log('angBlurOut: ang-blur-out mode is now off.');
         stopEventListening();
       }
     });
@@ -56,12 +54,10 @@ function angBlurOut($timeout) {
     }
 
     elem.on("$destroy", function() {
-      console.log('angBlurOut: element destroyed');
       scope.$destroy();
     });
 
     scope.$on("$destroy", function() {
-      console.log('angBlurOut: scope destroyed');
       stopEventListening();
     });
   }
