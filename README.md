@@ -11,7 +11,7 @@ include file into index.html
 
     <script src="angBlurOut.js"></script>
 
-include module int application
+include module into application
 
     angular.module('MyApp', ['ang.blurOut']);
 
