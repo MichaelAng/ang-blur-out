@@ -5,6 +5,17 @@
 ## Purpose
 To execute a callback when the user clicks outside of an element.
 
+## Getting Started
+
+include file into index.html
+
+    <script src="angBlurOut.js"></script>
+
+include module int application
+
+    angular.module('MyApp', ['ang.blurOut']);
+
+
 ## ang-blur-out
 When ang-blur-out="true", the application will run the callback function
 provided by ang-callback when the user clicks outside of the element it
