@@ -1,5 +1,5 @@
 (function() {
-angular.module('MyApp', [])
+angular.module('ang.blurOut', [])
 .directive('angBlurOut', angBlurOut);
 
 function angBlurOut($timeout) {
