@@ -2,6 +2,7 @@
 angular.module('ang.blurOut', [])
 .directive('angBlurOut', angBlurOut);
 
+/* @ngInject */
 function angBlurOut($timeout) {
   return {
     link: link,
@@ -65,5 +66,7 @@ function angBlurOut($timeout) {
     });
   }
 }
+
+angBlurOut.$inject = ['$timeout'];
 
 })();
