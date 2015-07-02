@@ -1,5 +1,7 @@
 # ang-blur-out
 
+[DEMO](http://plnkr.co/edit/3t0tluuOjl3fOFMa6CWI?p=preview)
+
 ## Purpose
 To execute a callback when the user clicks outside of an element.
 
