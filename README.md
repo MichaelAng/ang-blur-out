@@ -9,6 +9,8 @@ To execute a callback when the user clicks outside of an element.
 
 include file into index.html
 
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
     <script src="angBlurOut.js"></script>
 
 include module into application
